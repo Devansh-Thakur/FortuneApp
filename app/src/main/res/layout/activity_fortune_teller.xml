@@ -6,13 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".FortuneTellerActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fortune"
+        android:scaleType="centerCrop"/>
     <TextView
         android:id="@+id/fortune"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/annie_use_your_telescope"
         android:text="TextView"
+        android:textColor="#FDA727"
+        android:textSize="35sp"
+        android:textStyle="italic|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.20" />
 </androidx.constraintlayout.widget.ConstraintLayout>
